@@ -40,16 +40,35 @@ nav{
         #link {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
+            //垂直對齊底線
+            align-items: flex-end;
 
             a {
                 font-size: 18px;
                 font-weight: 100;
+
+                &:nth-child(2){
+                    text-align: center;
+                }
+                &:nth-child(3){
+                    text-align: right;
+                }
             }
         }
         
         #social {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    #contant{
+        width: 1920px;
+        height: 500px;
+        background-image: url(./img/paper.png);
+
+        h1{
+            
         }
     }
 }

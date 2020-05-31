@@ -47,6 +47,9 @@ nav #box #link {
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 nav #box #link a {
@@ -54,10 +57,24 @@ nav #box #link a {
   font-weight: 100;
 }
 
+nav #box #link a:nth-child(2) {
+  text-align: center;
+}
+
+nav #box #link a:nth-child(3) {
+  text-align: right;
+}
+
 nav #box #social {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
+}
+
+nav #contant {
+  width: 1920px;
+  height: 500px;
+  background-image: url(./img/paper.png);
 }
 /*# sourceMappingURL=style.css.map */
