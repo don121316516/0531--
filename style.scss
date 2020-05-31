@@ -1,5 +1,5 @@
-$green:#49aa45
-$gray333:#333333
+$green: #49aa45;
+$gray333: #333333;
 
 
 *{
@@ -73,7 +73,6 @@ nav{
 
     #contant{
         width: 1920px;
-        height: 500px;
         background-image: url(./img/paper.png);
         border: 0.1px solid rgba(0,0,0,0);
 
@@ -96,15 +95,15 @@ nav{
     
             div {
                 background-color: white;
-                padding: 40px 30px;
+                padding: 30px 30px;
     
                 h3 {
                     color: $green;
-                    font-size: 12px;
+                    font-size: 18px;
                     font-weight: 300;
                     letter-spacing: 3.6px;
                     text-align: center;
-                    margin-bottom: 27px;
+                    margin-bottom: 15px;
                 }
     
                 h4 {
@@ -124,4 +123,49 @@ nav{
                 }
             }
         }
+    }
+
+    #drink {
+        text-align: center;
+        position: relative;
+        margin: 0 atuo;
+
+        div {
+            width: 220px;
+            height: 400px;
+            position: absolute;
+            top:73px;
+            right:530px;
+
+            h4{
+                font-size: 30px;
+                font-weight: 450;
+                letter-spacing: 8px;
+                color: #f5bb28;
+                margin-bottom: 30px;
+            }
+
+            h5{
+                color: #cccccc ;
+                letter-spacing: 3px;
+            }
+            p {
+                color: $gray333;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 1.88;
+                letter-spacing: 4.8px;
+                margin: 28px 0 31px;
+            }
+        }
+
+        #compny{
+            div{
+                background-color: #49aa45;
+                width: 481px;
+                height: 22px;
+            } 
+        
+        }
+        
     }
