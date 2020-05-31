@@ -77,4 +77,12 @@ nav #contant {
   height: 500px;
   background-image: url(./img/paper.png);
 }
+
+nav #contant h1 {
+  text-align: center;
+  margin-top: 46px;
+  font-weight: 300;
+  letter-spacing: 9.6px;
+  font-size: 32px;
+}
 /*# sourceMappingURL=style.css.map */
