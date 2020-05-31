@@ -86,23 +86,27 @@ nav #box #social a:nth-child(2) {
 #contant h1 {
   text-align: center;
   margin-top: 46px;
+  margin-bottom: 60px;
   font-weight: 300;
   letter-spacing: 9.6px;
   font-size: 32px;
 }
 
 #contant #news {
-  width: 380px;
+  width: 1200px;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+}
+
+#contant #news div {
   background-color: #fff;
 }
 
-#contant #news h3 {
+#contant #news div h3 {
   width: 59px;
   height: 13px;
   font-size: 12px;
