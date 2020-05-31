@@ -72,17 +72,40 @@ nav #box #social {
       grid-template-columns: repeat(2, 1fr);
 }
 
-nav #contant {
+nav #box #social a:nth-child(2) {
+  text-align: right;
+}
+
+#contant {
   width: 1920px;
   height: 500px;
   background-image: url(./img/paper.png);
+  border: 0.1px solid rgba(0, 0, 0, 0);
 }
 
-nav #contant h1 {
+#contant h1 {
   text-align: center;
   margin-top: 46px;
   font-weight: 300;
   letter-spacing: 9.6px;
   font-size: 32px;
+}
+
+#contant #news {
+  width: 380px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  background-color: #fff;
+}
+
+#contant #news h3 {
+  width: 59px;
+  height: 13px;
+  font-size: 12px;
+  font-weight: 300;
 }
 /*# sourceMappingURL=style.css.map */

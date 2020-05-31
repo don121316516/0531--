@@ -59,13 +59,20 @@ nav{
         #social {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            a:nth-child(2) {
+                text-align: right;
+            }
         }
     }
+}
+
 
     #contant{
         width: 1920px;
         height: 500px;
         background-image: url(./img/paper.png);
+        border: 0.1px solid rgba(0,0,0,0);
+
 
         h1{
             text-align: center;
@@ -74,5 +81,21 @@ nav{
             letter-spacing: 9.6px;
             font-size: 32px;
         }
+
+        #news{
+            width: 380px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr );
+            grid-gap: 20px;
+            background-color: #fff;
+            
+            h3{
+                width: 59px;
+                height: 13px;
+                font-size: 12px;
+                font-weight: 300;
+
+            }
+        }
     }
-}
