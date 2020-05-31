@@ -1,47 +1,24 @@
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     font-family: 微軟正黑體;
     box-sizing: border-box;
 }
 
 #banner {
-    background-image: url(./img/banner.png);
-    width: 1920px;
-    height: 1280px;
+    background-image: url(./img/invalid-name.png);
+    width:1280px;
+    height:1920px ;
+    background-repeat: no-repeat;
 }
 
-// 導覽列
-nav {
-    // 固定
+nav{
     position: fixed;
-    width: 1920px;
 
-    a {
-        text-decoration: none;
-        color: white;
-    }
-
-    // 導覽列內的盒子
-    #box {
+    #box{
         margin: 59px auto 0;
         width: 1200px;
         display: grid;
         grid-template-columns: 204px 351px 398px 120px 110px;
-
-        #link {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-
-            a {
-                font-size: 18px;
-                font-weight: 100;
-            }
-        }
-        
-        #social {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-        }
     }
 }
