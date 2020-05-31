@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+
+#banner {
+    background-image: url(./img/invalid-name.png);
+    width:1280px;
+    height:1920px ;
+    background-repeat: no-repeat;
+}
+
+nav{
+    position: fixed;
+    
+    #box{
+        margin: 59px auto 0;
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 204px 351px 398px 120px 110px;
+    }
+}
