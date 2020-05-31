@@ -167,9 +167,14 @@ nav #box #social a:nth-child(2) {
   margin: 28px 0 31px;
 }
 
-#drink #compny div {
-  background-color: #49aa45;
-  width: 481px;
-  height: 22px;
+#compny {
+  width: 1200px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 620px auto;
+      grid-template-columns: 620px auto;
+  grid-gap: 20px;
+  padding-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
